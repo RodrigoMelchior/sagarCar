@@ -1,0 +1,10 @@
+<ion-view>
+	<ion-nav-title> Saga Car</ion-nav-title>	 
+	 <ion-content>
+		<ion-list>
+		  <ion-item ng-repeat="carro in listaDeCarros" href="#/carroEscolhido/{{carro}}">
+		    {{carro.nome}} - R{{carro.preco | currency}}
+		  </ion-item>		       
+		</ion-list>
+	</ion-content>
+</ion-view>	
