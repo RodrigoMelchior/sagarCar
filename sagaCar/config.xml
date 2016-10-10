@@ -26,5 +26,7 @@
   <plugin name="cordova-plugin-statusbar" spec="~2.2.0"/>
   <plugin name="ionic-plugin-keyboard" spec="~2.2.1"/>
   <plugin name="cordova-plugin-splashscreen" />
-  <splash src="splash.png" />
+
+  <gap:splash src="splash.png" />
+  
 </widget>
