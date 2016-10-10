@@ -8,8 +8,19 @@
   <author email="you@example.com" href="http://example.com.com/">
       Rodrigo Melchior
     </author>
- 
-   <icon src="icon.png" />
+  <content src="index.html"/>
+  <access origin="*"/>
+  <preference name="webviewbounce" value="false"/>
+  <preference name="UIWebViewBounce" value="false"/>
+  <preference name="DisallowOverscroll" value="true"/>
+  <preference name="SplashScreenDelay" value="2000"/>
+  <preference name="FadeSplashScreenDuration" value="2000"/>
+  <preference name="android-minSdkVersion" value="16"/>
+  <preference name="BackupWebStorage" value="none"/>
+  <feature name="StatusBar">
+    <param name="ios-package" onload="true" value="CDVStatusBar"/>
+  </feature>
+   <icon src="ionic.png" />
    <plugin name="cordova-plugin-splashscreen" />
     <splash src="splash.png" />
 </widget>
