@@ -27,7 +27,7 @@
   <plugin name="ionic-plugin-keyboard" spec="~2.2.1"/>
   <plugin name="cordova-plugin-splashscreen" />
 
-  <icon src="\www/img\ionic.png"/>
-  <gap:splash src="\www\img\splash.png" />
+  <icon src="ionic.png"/>
+  <gap:splash src="splash.png" />
   
 </widget>
